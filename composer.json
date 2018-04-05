@@ -1,0 +1,40 @@
+{
+    "name": "andrealune/query-builder-parser",
+    "homepage": "http://github.com/andrealune/QueryBuilderParser",
+    "description": "Build complex Eloquent & QueryBuilder queries automatically when using jQuery-QueryBuilder",
+    "keywords": [ "ajax", "eloquent", "jquery", "laravel", "parser", "query builder", "sql", "mongodb" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Groeneveld",
+            "email": "tim@timg.ws",
+            "homepage": "http://timg.ws"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "timgws\\": "src/QueryBuilderParser/",
+          "timgws\\test\\": "tests/"
+        }
+
+    },
+    "minimum-stability": "dev",
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/andrealune/query-builder-parser"  
+        }  
+    ],
+    "require": {
+        "illuminate/database": ">=5.5",
+        "timgws/query-builder-parser": "dev"
+    },
+    "suggest": {
+        "jenssegers/mongodb": "Use QueryBuilderParser with MongoDB"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "mockery/mockery": "^0.9.4"
+    }
+}
