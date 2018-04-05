@@ -20,15 +20,8 @@
 
     },
     "minimum-stability": "dev",
-    "repositories": [  
-        {  
-            "type": "vcs",  
-            "url": "https://github.com/andrealune/query-builder-parser"  
-        }  
-    ],
     "require": {
-        "illuminate/database": ">=5.5",
-        "timgws/query-builder-parser": "dev"
+        "illuminate/database": ">=5.5"        
     },
     "suggest": {
         "jenssegers/mongodb": "Use QueryBuilderParser with MongoDB"
